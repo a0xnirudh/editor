@@ -13,29 +13,15 @@
             width: 63%;
             height:50%;
             font-size: 16px;
-            margin-left:33%;
-            
         }
         #submit {
-            margin-right: 31%; 
+            margin-right: 19%;
             position:absolute;
-            bottom:6%;
+            bottom:50%;
             right: 0;
-            
-            
-            
         }
-        
-        #reset {
-         margin-right: 40%; 
-            position:absolute;
-            bottom:6%;
-            right: 0;
-           }
-        
-        
         body {
-            background: black none repeat scroll 0 0;
+            background: grey none repeat scroll 0 0;
             bottom: 0;
             left: 0;
             position: absolute;
@@ -44,57 +30,34 @@
         }
         #filler{}
         #container{bottom: 0;
-            height: 150%;
+            height: 100%;
             left: 0;
-            position: fixed;
+            position: relative;
             right: 0;
             top: 0;
-            width: 70%;
-            margin-left:2%;
-            margin-top:6%;
-           
+            width: 100%;
         }
         #explanation{
-            width: 30%;
-            height: 50%;
+            width: 63%;
+            height: 30%;
             margin: 0 auto;
             background:white;
             margin-bottom:2%;
-            margin-right:2%;
-            margin-left:70%;
-            
-            
         }
-        
-        #instruction{
-            width: 32%;
-            height: 50%;
-            margin: 0 auto;
-            background:white;
-            margin-bottom:2%;
-            margin-right:2%;
-            margin-left:0%;
-            border-radius: 40px 40px 40px 40px; 
-            
-        }
-        
         header{
             display: block;
             margin: 2%;
             text-align: center;
         }
-        
-        
-       
 
     </style>
 </head>
 <body>
-<header><font color="white">SuperAwesome unit testing thingy</font></header>
+<header>SuperAwesome unit testing thingy</header>
 
+<div id="explanation">Here will be the explanation</div>
 
 <div id="container">
-
 <div id="editor">public function sanitize($user_input) {
   $x = htmlspecialchars(trim($user_input));
   return "&lt;span title='".$x."'&gt;User input added as span title &lt;/span&gt;";
@@ -102,44 +65,17 @@
 
     </div>
 
-   
-   <div id="instruction">Instructions</div> 
+    <div id="submit">
+        <input type="submit" value="Submit" onclick="execute()"
+               style="background-color: #bcc6ae;
+  border-top: 2px solid #5f6c4d;
+  border-right: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  border-left: 2px solid #5f6c4d;
+  width: 80px; height: 24px;
+  font-weight: bold;" />
+    </div>
 </div>
- 
-<div id="explanation">Here will be the output</div>
-
-<div id="submit">
-        <input type="submit" value="Submit"  onclick="execute()"
-               style="background-color:#3498DB;
-               
-  border-top: 2px solid #5f6c4d;
-  border-right: 2px solid #000000;
-  border-bottom: 2px solid #000000;
-  border-left: 2px solid #5f6c4d;
-  width: 90px; height: 30px;
-  font-size:0.9em;
-  font-weight: bold;
-  cursor:pointer;
-  border-radius: 15px 40px 15px 40px;" />
-  
-    </div>
-    
-    <div id="reset">
-        <input type="submit" value="Reset"  onclick="execute()"
-               style="background-color:#3498DB;
-               
-  border-top: 2px solid #5f6c4d;
-  border-right: 2px solid #000000;
-  border-bottom: 2px solid #000000;
-  border-left: 2px solid #5f6c4d;
-  width: 90px; height: 30px;
-  font-size:0.9em;
-  font-weight: bold;
-  cursor:pointer;
-  border-radius: 15px 40px 15px 40px;" />
-  
-    </div>
-    
 
 <script src="ace-builds/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
 <script>
