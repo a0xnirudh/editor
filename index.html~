@@ -83,7 +83,7 @@
         }
         
         #hinstruction{
-            margin-left: 30%;
+            margin-left: 25%;
             }
         
         #houtput{
@@ -109,10 +109,10 @@
     </div>
 
    
-   <div id="instruction"><div id="hinstruction">Instructions</div></div> 
+   <div id="instruction"><div id="hinstruction"><strong><font size=5px">Instructions</font><strong></div></div> 
 </div>
  
-<div id="explanation"><div id="houtput">Output</div></div>
+<div id="explanation"><div id="houtput"><strong><font size=5px">Output</font><strong></div></div>
 
 <div id="submit">
         <input type="submit" value="Submit"  onclick="execute()"
