@@ -97,7 +97,7 @@
 
 
 
-**<img src="picture/hack1.jpg" style="width:200px; height:80px;" align="middle">
+***<img src="picture/hack2.png" style="width:200px; height:80px;" align="middle">
 
 <div id="container">
 
@@ -131,7 +131,7 @@
     </div>
     
     <div id="reset">
-        <input type="submit" value="Reset"  onclick="execute()"
+        <a href="index.html" > <input type="reset" value="Reset"  onclick="editor/index.html"
                style="background-color:#3498DB;
                
   border-top: 2px solid #5f6c4d;
@@ -142,7 +142,8 @@
   font-size:0.9em;
   font-weight: bold;
   cursor:pointer;
-  border-radius: 15px 40px 15px 40px;" />
+  border-radius: 15px 40px 15px 40px;" /></a>
+
   
     </div>
     
