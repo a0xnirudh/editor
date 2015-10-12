@@ -61,10 +61,10 @@
             background:white;
             margin-bottom:2%;
             margin-right:2%;
-            margin-left:70%;
+            margin-left:69%;
              margin-top:4%;
             
-            border-radius: 40px 40px 40px 40px;
+            border-radius: 0px 0px 0px 0px;
             
             
         }
@@ -76,18 +76,18 @@
             background:white;
             margin-bottom:2%;
             margin-right:2%;
-            margin-left:0%;
-            
-            border-radius: 40px 40px 40px 40px; 
+            margin-left:1%;
+            filter: blur(strength=50);
+            border-radius: 0px 0px 0px 0px; 
             
         }
         
         #hinstruction{
-            margin-left: 25%;
+            margin-left: 20%;
             }
         
         #houtput{
-            margin-left: 40%;
+            margin-left: 35%;
             }
         
        
@@ -97,7 +97,7 @@
 
 
 
-***<img src="picture/hack2.png" style="width:200px; height:80px;" align="middle">
+*****<img src="picture/hack2.png" style="width:200px; height:80px;" align="middle">
 
 <div id="container">
 
@@ -116,7 +116,7 @@
 
 <div id="submit">
         <input type="submit" value="Submit"  onclick="execute()"
-               style="background-color:#3498DB;
+               style="background-color:#5B74A8;
                
   border-top: 2px solid #5f6c4d;
   border-right: 2px solid #000000;
@@ -126,13 +126,13 @@
   font-size:0.9em;
   font-weight: bold;
   cursor:pointer;
-  border-radius: 15px 40px 15px 40px;" />
+  border-radius: 0px 0px 0px 0px;" />
   
     </div>
     
     <div id="reset">
         <a href="index.html" > <input type="reset" value="Reset"  onclick="editor/index.html"
-               style="background-color:#3498DB;
+               style="background-color:#5B74A8;
                
   border-top: 2px solid #5f6c4d;
   border-right: 2px solid #000000;
@@ -142,7 +142,7 @@
   font-size:0.9em;
   font-weight: bold;
   cursor:pointer;
-  border-radius: 15px 40px 15px 40px;" /></a>
+  border-radius: 0px 0px 0px 0px;" /></a>
 
   
     </div>

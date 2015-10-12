@@ -10,27 +10,31 @@
             position: absolute;
             right: 0;
             top: 0;
-            width: 63%;
+            width: 67.5%;
             height:50%;
             font-size: 16px;
-            margin-left:33%;
+            margin-left:32%;
+            margin-top:2.9%;
+
+           
             
-        }
-        #submit {
+        } #submit {
             margin-right: 31%; 
             position:absolute;
-            bottom:6%;
+            bottom:5%;
             right: 0;
+            margin-bottom: -2%;
             
             
             
         }
         
         #reset {
-         margin-right: 40%; 
+         margin-right: 42%; 
             position:absolute;
-            bottom:6%;
+            bottom:5%;
             right: 0;
+            margin-bottom:-2%;
            }
         
         
@@ -60,45 +64,136 @@
             margin: 0 auto;
             background:white;
             margin-bottom:2%;
-            margin-right:2%;
-            margin-left:70%;
-             margin-top:4%;
+          
+            margin-left:72%;
+             margin-top:-2%;
+             background-color: white;
+            border-radius: 0px 0px 0px 0px;
             
-            border-radius: 40px 40px 40px 40px;
-            
-            
+            opacity:0px;
         }
         
         #instruction{
-            width: 32%;
-            height: 50%;
+            width: 35%;
+            height: 52.7%;
             margin: 0 auto;
             background:white;
             margin-bottom:2%;
             margin-right:2%;
-            margin-left:0%;
-            
-            border-radius: 40px 40px 40px 40px; 
+            margin-left:-3%;
+            filter: blur(strength=50);
+            border-radius: 0px 0px 0px 0px; 
+            background-color: white;
             
         }
         
         #hinstruction{
-            margin-left: 25%;
+            margin-left: 0%;
+            
+            
+/* 	margin: 1em 0 0.5em 0; */
+	font-weight: 600;
+	font-family: 'Titillium Web', sans-serif;
+	position: relative;  
+	font-size: 10px;
+	line-height: 40px;
+	padding: 15px 15px 15px 15%;
+	color: #355681;
+	box-shadow: 
+		inset 0 0 0 1px rgba(53,86,129, 0.4), 
+		inset 0 0 5px rgba(53,86,129, 0.5),
+		inset -285px 0 35px white;
+	border-radius: 0 0px 0 0px;
+	background: #fff url(../images/bartoszkosowski.jpg) no-repeat center left ;
+	width:257px;
+	text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3); 
+}
+        
             }
         
         #houtput{
-            margin-left: 40%;
+            margin-left: 35%;
             }
+            
+        #button {
+           background-color:#6B6BB2;
+          border-top: 2px solid #5f6c4d;
+  border-right: 2px solid #000000;
+  border-bottom: 4px solid #000000;
+  border-left: 2px solid #5f6c4d;
+  width:120px; height: 40px;
+  font-size:0.9em;
+  font-weight: bold;
+
+  cursor:pointer;
+  border-radius: 10px 10px 10px 10px;
+  margin: 50px 0 0 50px;
+ text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3); 
+
+  
+ 
+}   
+ 
         
+       #button:hover {
+  background-color:#89c403;
+  margin-top: 52px;
+     /*Shadow*/
+  -webkit-box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.8);
+   
+  /*Gradient*/
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+  background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+  background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+  background-image: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+  background-image: linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+}
+
+#header {
+    background-color: #404040 ;
+    height:12.5%;
+    margin-top:-0.6%;
+    margin-left:-0.6%;
+    margin-right:-0.6%;
+    margin-bottom:-4.4%;
+    border-radius: 0px 0px 0px 0px;
+    font-size:50px;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3); 
+    
+}
+
+#sheader {
+     background-color:#3D3D66;
+        width:48.9%;
+    height:4%;
+    margin-left:23%;
+    margin-top:4.3%;
+}
+#unittesting {
+    margin-left:3%;
+}
+
+a{
+    font-color: red;
+}
+
+          
+
+  
        
     </style>
 </head>
 <body>
 
+ 
 
-
-*****<img src="picture/hack2.png" style="width:200px; height:80px;" align="middle">
-
+<div id="header">
+Hackademic
+</div>
+<!--<img src="picture/hack2.png" style="width:200px; height:80px;" align="middle">-->
+<div id="sheader"><div id="unittesting"> <font color="white">Super awsome unit testing thingy</font></div></div>
 <div id="container">
 
 <div id="editor">public function sanitize($user_input) {
@@ -115,34 +210,14 @@
 <div id="explanation"><div id="houtput"><strong><font size=5px">Output</font><strong></div></div>
 
 <div id="submit">
-        <input type="submit" value="Submit"  onclick="execute()"
-               style="background-color:#3498DB;
-               
-  border-top: 2px solid #5f6c4d;
-  border-right: 2px solid #000000;
-  border-bottom: 2px solid #000000;
-  border-left: 2px solid #5f6c4d;
-  width: 90px; height: 30px;
-  font-size:0.9em;
-  font-weight: bold;
-  cursor:pointer;
-  border-radius: 15px 40px 15px 40px;" />
+    
+       <input type="submit" value=" Save & Submit" id="button" onclick="execute()"/>
+    
   
     </div>
     
     <div id="reset">
-        <a href="index.html" > <input type="reset" value="Reset"  onclick="editor/index.html"
-               style="background-color:#3498DB;
-               
-  border-top: 2px solid #5f6c4d;
-  border-right: 2px solid #000000;
-  border-bottom: 2px solid #000000;
-  border-left: 2px solid #5f6c4d;
-  width: 90px; height: 30px;
-  font-size:0.9em;
-  font-weight: bold;
-  cursor:pointer;
-  border-radius: 15px 40px 15px 40px;" /></a>
+        <a href="index.html" style="text-decoration:none" > <input type="reset" id="button" value="Reset"  onclick="editor/index.html"/></a>
 
   
     </div>
